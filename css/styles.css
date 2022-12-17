@@ -10,23 +10,23 @@ p{
 
 }
 .ul{
-    list-style: none;
-	padding-left: 0;
-	margin: 0;
+list-style: none;
+padding-left: 0;
+margin: 0;
 } 
 .link{
-    text-decoration: none;
-	color: inherit;
+text-decoration: none;
+color: inherit;
 }
 span{
-    color: blue;
-    font-family: sans-serif;
-    font-size: 26px;
-    font-weight: 400;
-    line-height: 36px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    text-decoration: none;
+color: blue;
+font-family: sans-serif;
+font-size: 26px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0.03em;
+text-align: left;
+text-decoration: none;
     
 
 }
@@ -76,8 +76,8 @@ list-style: none;
 
 }
 .lizaq{
-    color: black;
-    font-family: sans-serif;
+color: black;
+font-family: sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -85,9 +85,9 @@ line-height: 16px;
 letter-spacing: 0.02em;
 text-decoration: none;
 list-style: none;
-  margin-right: 50px;
-  margin-left:50px ;
-  
+margin-right: 50px;
+margin-left:50px ;
+
 }
 .vetal{
 
@@ -102,8 +102,8 @@ text-align: center
 
 }
 .lizaa{
-    color: #2196F3;
-    font-family: sans-serif;
+color: #2196F3;
+font-family: sans-serif;
 font-size: 14px;
 font-weight: 500;
 line-height: 16px;
@@ -120,8 +120,8 @@ margin-bottom: 32px;
 
 }
 .lizap{
-    color: #757575;
-    font-family: sans-serif;
+color: #757575;
+font-family: sans-serif;
 font-size: 14px;
 font-weight: 500;
 line-height: 16px;
@@ -133,15 +133,15 @@ gap: 40px;
 
 }
 .button{
-    font-family: sans-serif;
+font-family: sans-serif;
 font-size: 16px;
 font-weight: 700;
 line-height: 30px;
 letter-spacing: 0.06em;
 text-align: center;
- background : #2196F3;
- color: white;
- height: 50px;
+background : #2196F3;
+color: white;
+height: 50px;
 width: 200px;
 left: 700px;
 top: 430px;
@@ -155,40 +155,40 @@ margin-right:248px;
 
 }
 .vetall{
-    font-family: sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: #212121;
-    height: 16px;
+font-family: sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #212121;
+height: 16px;
 width: 270px;
 left: 215px;
 top: 924px;
 border-radius: nullpx;
 
-  
+
 }
 
 .goit{
-    font-family: sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: #757575;
-    height: 72px;
+font-family: sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #757575;
+height: 72px;
 width: 270px;
 left: 215px;
 top: 950px;
 border-radius: nullpx;
 
-    
+
 }
-    .ua{
-        font-family: sans-serif;
+.ua{
+font-family: sans-serif;
 font-size: 14px;
 font-weight: 700;
 line-height: 16px;
@@ -220,9 +220,9 @@ border-radius: nullpx;
 
 
 
-    }
-    .better{
-        font-family: sans-serif;
+}
+.better{
+font-family: sans-serif;
 font-size: 14px;
 font-weight: 700;
 line-height: 16px;
@@ -236,9 +236,9 @@ top: 924px;
 border-radius: nullpx;
 
 
-    }
-    .im{
-        font-family: sans-serif;
+}
+.im{
+font-family: sans-serif;
 font-size: 14px;
 font-weight: 400;
 line-height: 24px;
@@ -252,9 +252,9 @@ top: 950px;
 border-radius: nullpx;
 
 
-    }
-    .st{
-        font-family: sans-serif;
+}
+.st{
+font-family: sans-serif;
 font-size: 14px;
 font-weight: 700;
 line-height: 16px;
@@ -268,9 +268,9 @@ top: 924px;
 border-radius: nullpx;
 
 
-    }
-    .bt{
-        font-family: sans-serif;
+}
+.bt{
+font-family: sans-serif;
 font-size: 14px;
 font-weight: 400;
 line-height: 24px;
@@ -284,9 +284,9 @@ top: 950px;
 border-radius: nullpx;
 
 
-    }
+}
 .ky{
-    font-family: sans-serif;
+font-family: sans-serif;
 font-size: 36px;
 font-weight: 700;
 line-height: 42px;
@@ -296,7 +296,7 @@ color: #212121;
 
 }
 .vn{
-    height: 294px;
+height: 294px;
 width: 370px;
 left: 215px;
 top: 1058px;
@@ -305,7 +305,7 @@ margin-right: 30px;
 
 }
 .od{
-    height: 294px;
+height: 294px;
 width: 370px;
 left: 615px;
 top: 1058px;
@@ -314,7 +314,7 @@ margin-right: 30px;
 
 }
 .dn{
-    height: 294px;
+height: 294px;
 width: 370px;
 left: 1015px;
 top: 1058px;
@@ -322,7 +322,7 @@ border-radius: 0px;
 
 }
 .ma{
-    font-family: sans-serif;
+font-family: sans-serif;
 font-size: 36px;
 font-weight: 700;
 line-height: 42px;
@@ -335,7 +335,7 @@ top: 1540px;
 
 }
 .yx{
-    height: 260px;
+height: 260px;
 width: 270px;
 left: 215px;
 top: 1632px;
@@ -343,7 +343,7 @@ border-radius: 0px;
 
 }
 .an{
-    font-family: sans-serif;
+font-family: sans-serif;
 font-size: 16px;
 font-weight: 500;
 line-height: 19px;
@@ -354,7 +354,7 @@ text-decoration: none;
 margin-top: 30px;
 }
 .vk{
-    font-family: sans-serif;
+font-family: sans-serif;
 font-size: 16px;
 font-weight: 400;
 line-height: 19px;
@@ -365,7 +365,7 @@ color: #757575;
 
 }
 .jk{
-    height: 260px;
+height: 260px;
 width: 270px;
 left: 515px;
 top: 1632px;
@@ -373,7 +373,7 @@ border-radius: 0px;
 
 }
 .hg{
-    font-family: sans-serif;
+font-family: sans-serif;
 font-size: 16px;
 font-weight: 500;
 line-height: 19px;
@@ -384,7 +384,7 @@ margin-top: 30px;
 
 }
 .df{
-    font-family: sans-serif;
+font-family: sans-serif;
 font-size: 16px;
 font-weight: 400;
 line-height: 19px;
@@ -394,7 +394,7 @@ color: #757575;
 
 }
 .we{
-    height: 260px;
+height: 260px;
 width: 270px;
 left: 815px;
 top: 1632px;
@@ -402,7 +402,7 @@ border-radius: 0px;
 
 }
 .you{
-    font-family: sans-serif;
+font-family: sans-serif;
 font-size: 16px;
 font-weight: 500;
 line-height: 19px;
@@ -413,7 +413,7 @@ margin-top: 30px;
 
 }
 .lo{
-    font-family: sans-serif;
+font-family: sans-serif;
 font-size: 16px;
 font-weight: 400;
 line-height: 19px;
@@ -423,7 +423,7 @@ color: #757575;
 
 }
 .as{
-    height: 260px;
+height: 260px;
 width: 270px;
 left: 1115px;
 top: 1632px;
@@ -431,7 +431,7 @@ border-radius: 0px;
 
 }
 .cl{
-    font-family: sans-serif;
+font-family: sans-serif;
 font-size: 16px;
 font-weight: 500;
 line-height: 19px;
@@ -442,7 +442,7 @@ margin-top: 30px;
 
 }
 .m{
-    font-family: sans-serif;
+font-family: sans-serif;
 font-size: 16px;
 font-weight: 400;
 line-height: 19px;
@@ -452,7 +452,7 @@ color: #757575;
 
 }
 .dym{
-    font-family: Raleway;
+font-family: Raleway;
 font-size: 26px;
 font-weight: 400;
 line-height: 31px;
@@ -462,17 +462,17 @@ color: #0c0d0e;
 
 }
 .span{
-    font-family: sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: #2196F3;
-    text-decoration: none;
+font-family: sans-serif;
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #2196F3;
+text-decoration: none;
 }
 .dym{
-    
+
 font-family: sans-serif;
 font-size: 26px;
 font-weight: 400;
@@ -483,7 +483,7 @@ color: #FFFFFF;
 text-decoration: none;
 }
 .kl{
-    font-family: sans-serif;
+font-family: sans-serif;
 font-size: 14px;
 font-weight: 400;
 line-height: 24px;
@@ -494,7 +494,7 @@ text-decoration: none;
 
 }
 .op{
-    font-family: sans-serif;
+font-family: sans-serif;
 font-size: 14px;
 font-weight: 400;
 line-height: 24px;
@@ -504,19 +504,19 @@ color: #FFFFFF;
 text-decoration: none;
 }
 .page-footer{
-     background-color: #2F303A;
-     height: 252px;
-     width: 1600px;
-     left: 0px;
-     top: 2094px;
-     border-radius: 0px;
-     margin: 0 auto;
-     
-     
+background-color: #2F303A;
+height: 252px;
+width: 1600px;
+left: 0px;
+top: 2094px;
+border-radius: 0px;
+margin: 0 auto;
+
+
 
 }
 .ann{
-    font-family: sans-serif;
+font-family: sans-serif;
 font-size: 14px;
 font-weight: 400;
 line-height: 24px;
@@ -526,12 +526,12 @@ color: #FFFFFF;
 text-decoration: none;
 }
 img{
-    display: block;
-	max-width: 100%;
-	height: auto;
+display: block;
+max-width: 100%;
+height: auto;
 }
 address{
-    font-style:normal ;
+font-style:normal ;
 }
 .container{
 margin: 0 auto;
@@ -541,7 +541,7 @@ padding-left: 215px;
 padding-right: 215px;
 }
 .conta{
-    height: 251px;
+height: 251px;
 width: 1600px;
 left: 0px;
 top: 2094px;
@@ -554,99 +554,99 @@ display: flex;
 
 }
 .dodo{
-    height: 600px;
-    width: 1600px;
-    left: 0px;
-    top: 80px;
-    background-color: #2F303A;
-    margin: 0 auto;
+height: 600px;
+width: 1600px;
+left: 0px;
+top: 80px;
+background-color: #2F303A;
+margin: 0 auto;
 background-image: url(/liza/Img\ \(21\).jpg);
 
 }
 .header{
-    background-color: #FFFFFF;
+background-color: #FFFFFF;
 }
 .sonya{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+display: flex;
+justify-content: space-between;
+align-items: center; 
+
 }
 .yxtu{
-    display: flex;
-    justify-content: space-between;
-    flex-grow: 1;
-    align-items: center;
+display: flex;
+justify-content: space-between;
+flex-grow: 1;
+align-items: center;
 }
 
 .containerr{
-    height: 80px;
-    width: 1600px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
-    margin: 0 auto;
-    box-sizing: content-box;
+height: 80px;
+width: 1600px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+margin: 0 auto;
+box-sizing: content-box;
 }
 .rrrt{
-    display: flex;
-    align-items: center;
-    margin-right: 215px;
-    list-style: none;
+display: flex;
+align-items: center;
+margin-right: 215px;
+list-style: none;
 }
 .rrr{
-    display: flex;
-    gap: 80px;
-    list-style: none;
-
+display: flex;
+gap: 80px;
+list-style: none;
+ 
 }
 .junior{
-    padding-top: 200px;
-    padding-right: 452px;
-    padding-left: 452px;
-    padding-bottom: 200px;
-    
+padding-top: 200px;
+padding-right: 452px;
+padding-left: 452px;
+padding-bottom: 200px;
+
 }
 .popopo{
-    display: flex;
-    justify-content: space-between;
-    align-items: center ;
-    font-size: 1;
-    padding-right: 215px;
-    padding-left: 175px;
-    
-    
+display: flex;
+justify-content: space-between;
+align-items: center ;
+font-size: 1;
+padding-right: 215px;
+padding-left: 175px;
+
+
 
 
 }
 .listt{
-    display: flex;
-    list-style: none;
+display: flex;
+list-style: none;
     
 }
 .pip{
-    margin-right: 30px ;
+margin-right: 30px ;
 }
 .pup{
-    margin-right: 30px;
+margin-right: 30px;
 }
 .momo{
-    align-items: center;
-    margin-top: 118px;
-    margin-bottom: 50px;
+align-items: center;
+margin-top: 118px;
+margin-bottom: 50px;
     
 
 }
 .mimo{
-    align-items: center;
-    display: flex;
+align-items: center;
+display: flex;
    
 
 }
 .dude{
-    padding-left: 215px;
-    padding-right: 215px ;
-    background: color #f5f5f5;;
+padding-left: 215px;
+padding-right: 215px ;
+background: color #f5f5f5;;
 }
 .peppa{
 background-color: #F5F4FA;
@@ -659,7 +659,7 @@ padding-top: 94px;
 
 }
 .motrya{
-    height: 428px;
+height: 428px;
 width: 270px;
 left: 215px;
 top: 1632px;
@@ -673,13 +673,13 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 border-radius: 0px 0px 4px 4px;
 
 }
-.suslan{
-    
+.suslan{  
+
     border-radius: [object Object]px;
-    width: 270px;
-    height: 428px;
-    left: 215px;
-    top: 1632px;
+width: 270px;
+height: 428px;
+left: 215px;
+top: 1632px;
 background: #FFFFFF;  
 align-items: center;
 list-style: none;
@@ -689,7 +689,7 @@ border-radius: 0px 0px 4px 4px;
 
 }
 .dog{
-    
+
 border-radius: [object Object]px;
 width: 270px;
 height: 428px;
@@ -1615,38 +1615,38 @@ padding-bottom: 60px;
 
 }
 .dodo{
-    height: 600px;
-    width: 1600px;
-    left: 0px;
-    top: 80px;
-    background-color: #2F303A;
-    margin: 0 auto;
+height: 600px;
+width: 1600px;
+left: 0px;
+top: 80px;
+background-color: #2F303A;
+margin: 0 auto;
 
 
 }
 .header{
-    background-color: #FFFFFF;
+background-color: #FFFFFF;
 }
 .sonya{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 .yxtu{
-    display: flex;
-    justify-content: space-between;
-    flex-grow: 1;
-    align-items: center;
+display: flex;
+justify-content: space-between;
+flex-grow: 1;
+align-items: center;
 }
 
 .containerr{
-    height: 80px;
-    width: 1600px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
-    margin: 0 auto;
-    box-sizing: content-box;
+height: 80px;
+width: 1600px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+margin: 0 auto;
+box-sizing: content-box;
 }
 .rrrt{
     display: flex;
@@ -1667,43 +1667,43 @@ padding-bottom: 60px;
     
 }
 .popopo{
-    display: flex;
-    justify-content: space-between;
-    align-items: center ;
-    font-size: 1;
-    margin-top: 94px;
+display: flex;
+justify-content: space-between;
+align-items: center ;
+font-size: 1;
+margin-top: 94px;
     
 
 
 }
 .listt{
-    display: flex;
-    list-style: none;
+display: flex;
+list-style: none;
     
 }
 .pip{
-    margin-right: 30px ;
+margin-right: 30px ;
 }
 .pup{
-    margin-right: 30px;
+margin-right: 30px;
 }
 .momo{
-    align-items: center;
-    margin-top: 118px;
-    margin-bottom: 50px;
+align-items: center;
+margin-top: 118px;
+margin-bottom: 50px;
     
 
 }
 .mimo{
-    align-items: center;
-    display: flex;
+align-items: center;
+display: flex;
    
 
 }
 .dude{
-    padding-left: 215px;
-    padding-right: 215px ;
-    background: color #f5f5f5;;
+padding-left: 215px;
+padding-right: 215px ;
+background: color #f5f5f5;;
 }
 .peppa{
 background-color: #F5F4FA;
@@ -1716,7 +1716,7 @@ padding-top: 94px;
 
 }
 .motrya{
-    height: 368px;
+height: 368px;
 width: 270px;
 left: 215px;
 top: 1632px;
@@ -1730,10 +1730,10 @@ margin-right: 30px;
 .suslan{
     
     border-radius: [object Object]px;
-    width: 270px;
-    height: 368px;
-    left: 215px;
-    top: 1632px;
+width: 270px;
+height: 368px;
+left: 215px;
+top: 1632px;
 background: #FFFFFF;  
 align-items: center;
 list-style: none;
@@ -1751,7 +1751,7 @@ background: #FFFFFF;
 list-style: none;
 margin-right: 30px;
 }
-.sus{
+.sus{   
     
 border-radius: [object Object]px;
 width: 270px;
@@ -1763,7 +1763,7 @@ align-items: center;
 list-style: none;
 }
 .oyn{
-    align-items:center ;
+align-items:center ;
 }
 .lana{
  align-items: center; 
@@ -1778,13 +1778,13 @@ flex-grow: 1;
 
 }
 .aaab{
-    align-items: center;
+align-items: center;
 }
 .lish{
-    list-style-type: none;
-    text-decoration-line: none;
-    margin-left: 175px;
+list-style-type: none;
+text-decoration-line: none;
+margin-left: 175px;
 }
 .glo{
-    margin-left: 215px;
+margin-left: 215px;
 }
