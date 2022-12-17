@@ -68,6 +68,7 @@ letter-spacing: 0.02em;
 text-align: left;
 color: #2196F3;
 text-decoration: none;
+margin-left: 10px;
 
 }
 .lad{
@@ -78,8 +79,7 @@ line-height: 16px;
 letter-spacing: 0.02em;
 text-align: left;
 color: #757575;
-margin-left: 40px;
-margin-right: 215px;
+margin-right: 195px;
 text-decoration: none;
 
 }
@@ -89,6 +89,16 @@ text-decoration: none;
     font-family: inherit
     ;
     background-color: #2196F3;
+    width: 73px;
+height: 38px;
+left: 512px;
+top: 174px;
+
+
+/* shadow-middle */
+
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
 }
 .button2{
     color: #212121;
@@ -97,12 +107,27 @@ text-decoration: none;
     background-color: #F5F4FA;
     margin-left: 8px;
     margin-right: 8px;
+    width: 125px;
+height: 38px;
+left: 593px;
+top: 174px;
+
+background: #F5F4FA;
+border-radius: 4px;
     
 }
 .button3{
     color: #212121;
     font-family: inherit;
     background-color: #F5F4FA;
+    width: 112px;
+height: 38px;
+left: 726px;
+top: 174px;
+
+background: #F5F4FA;
+border-radius: 4px;
+
 }
 .button4{
     color: #212121;
@@ -110,11 +135,25 @@ text-decoration: none;
     background-color: #F5F4FA;
     margin-left: 8px;
     margin-right: 8px;
+    width: 103px;
+height: 38px;
+left: 846px;
+top: 174px;
+
+background: #F5F4FA;
+border-radius: 4px;
 }
 .button5{
     color: #212121;
     font-family: inherit;
     background-color: #F5F4FA;
+    width: 130px;
+height: 38px;
+left: 957px;
+top: 174px;
+
+background: #F5F4FA;
+border-radius: 4px;
 }
 .img7{
     height: 294px;
@@ -477,7 +516,6 @@ bottom: 0;
     padding-bottom: 94px;
 }
 .got{
-    align-items: center;
     display: flex;
    justify-content: center;
    
@@ -556,6 +594,8 @@ align-items: center;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
+    border: 1px solid #EEEEEE;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .sunshine{
 margin-left: 24px;
@@ -585,12 +625,121 @@ margin-left: 24px;
 .aria{
     margin-left: 24px;
 }
-.purple{
-    
+.telef{
+    margin-right: 10px;
+    margin-left: 30px;
 }
-.purple1{
-    
-}
-.purple2{
+.nazva{
+    height: 16px;
+width: 116px;
+left: 516px;
+top: 2748px;
+border-radius: nullpx;
 
+}
+.qqq1{
+    font-family: sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #FFFFFF;
+}
+.pochatok{
+    height: 80px;
+width: 206px;
+left: 516px;
+top: 2748px;
+border-radius: 0px;
+margin-left: 70px;
+margin-bottom: 97px;
+}
+.twitter3{
+    height: 44px;
+width: 44px;
+left: 0px;
+top: -0.00006103515625px;
+border-radius: 50%;
+background: #2196F3;
+padding-left: 12px;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-right: 12px;
+margin-left: 10px;
+margin-right: 10px;
+}
+.in2{
+    height: 44px;
+    width: 44px;
+    left: 0px;
+    top: -0.00006103515625px;
+    border-radius: 50%;
+    padding-left: 12px;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-right: 12px;
+}
+.facebook2{
+    height: 44px;
+    width: 44px;
+    left: 0px;
+    top: -0.00006103515625px;
+    border-radius: 50%;
+    padding-left: 12px;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-right: 12px;
+margin-left: 10px;
+margin-right: 10px;
+}
+.insta3{
+    height: 44px;
+width: 44px;
+left: 0px;
+top: -0.00006103515625px;
+border-radius: 50%;
+padding-left: 12px;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-right: 12px;
+
+}
+.facebook{
+    height: 20px;
+width: 10.000834465026855px;
+left: 5.1558837890625px;
+top: 0px;
+border-radius: 0px;
+
+
+}
+.in{
+    height: 20px;
+width: 20px;
+left: 12px;
+top: 12px;
+border-radius: 0px;
+
+}
+.adress{
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+   margin-top: 16px;
+   margin-bottom: 30px;
+}
+.mivina{
+    display: flex;
+}
+.pipi{
+    display: block;
+    
+}
+.finger567{
+    height: 16px;
+width: 16px;
+left: 563px;
+top: 212px;
+border-radius: 0px;
 }
