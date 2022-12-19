@@ -577,6 +577,7 @@ display: flex;
 justify-content: space-between;
 flex-grow: 1;
 align-items: center;
+
 }
 
 .containerr{
@@ -596,6 +597,7 @@ list-style: none;
 }
 .rrr{
 display: flex;
+
 list-style: none;
  
 }
@@ -777,6 +779,7 @@ margin-right:30px ;
 display:block;
 justify-content: center;
 align-items:center ;
+
 }   
 .lust{
 height: 12px;
@@ -1211,6 +1214,15 @@ list-style: none;
   margin-right: 50px;
 }
 .vetal{
+    
+    color: blanchedalmond;
+    text-align:center ;
+    font-family: sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center
 
 }
 .lizaa{
@@ -1226,6 +1238,7 @@ list-style: none;
 margin-right: 40px;
 margin-top: 32px;
 margin-bottom: 32px;
+
 
 }
 .lizap{
@@ -1645,7 +1658,6 @@ box-sizing: content-box;
 }
 .rrr{
     display: flex;
-    gap: 80px;
     
     list-style: none;
 }
