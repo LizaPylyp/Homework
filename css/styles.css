@@ -596,7 +596,6 @@ list-style: none;
 }
 .rrr{
 display: flex;
-gap: 80px;
 list-style: none;
  
 }
@@ -1212,15 +1211,6 @@ list-style: none;
   margin-right: 50px;
 }
 .vetal{
-background-color: #2F303A;
-color: blanchedalmond;
-text-align:center ;
-font-family: sans-serif;
-font-size: 44px;
-font-weight: 900;
-line-height: 60px;
-letter-spacing: 0.06em;
-text-align: center
 
 }
 .lizaa{
@@ -1236,7 +1226,6 @@ list-style: none;
 margin-right: 40px;
 margin-top: 32px;
 margin-bottom: 32px;
-margin-left: 354px;
 
 }
 .lizap{
@@ -1657,6 +1646,7 @@ box-sizing: content-box;
 .rrr{
     display: flex;
     gap: 80px;
+    
     list-style: none;
 }
 .junior{
