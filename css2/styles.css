@@ -743,3 +743,33 @@ left: 563px;
 top: 212px;
 border-radius: 0px;
 }
+.cccss{
+    position: relative;
+
+}
+.text-animation{
+    width: 322px;
+height: 168px;
+left: 239px;
+top: 323px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+.ngshka{
+    position: absolute;
+width: 370px;
+height: 294px;
+left: 215px;
+top: 260px;
+
+background: rgba(33, 150, 243, 0.9);
+}
