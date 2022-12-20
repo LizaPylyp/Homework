@@ -9,7 +9,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https: //fonts.googleapis.com/css2?family= Roboto: семья = Робото: вес @ 400; 500; 700; 900 & display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/liza/popupe.svg">
 <link rel="stylesheet" href="/liza/symbol-defs.svg">
 </head>
 <body>
@@ -19,14 +18,14 @@
             <nav class="yxtu">
             <a class="duen" href="index.html"><span>Web</span>Studio</a> 
             <ul class="rrr">
-                    <li class="piko"><a href="index.html" class="liz">Студія</a><svg class="palec" width="13.33px" height="16px"><use href="/liza/popupe.svg#icon-finger"></use></svg>
+                    <li class="piko"><a href="index.html" class="liz">Студія</a><svg class="palec" width="13.33px" height="16px"><use href="/liza/symbol-defs.svg#icon-finger"></use></svg>
                     </li>
                     <li> <a href="#" class="lizaq">Портфоліо</a>
                     <li><a href="#" class="liza">Контакти</a>
             </ul>
             <ul class="rrrt">
-                <li><svg class="lust" width="16px" hight="12px"><use href="/liza/popupe.svg#icon-envelope-hover"></use></svg></li>
- <li class="piko1"><a href="#" class="lizaa">info@devstudio.com</a><svg class="palec" width="13.33px" height="16px"><use href="/liza/popupe.svg#icon-finger"></use></svg></li>
+                <li><svg class="lust" width="16px" hight="12px"><use href="/liza/symbol-defs.svg#icon-envelope-hover"></use></svg></li>
+ <li class="piko1"><a href="#" class="lizaa">info@devstudio.com</a><svg class="palec" width="13.33px" height="16px"><use href="/liza/symbol-defs.svg#icon-finger"></use></svg></li>
  <li><svg class="phone" width="10px" height="16px"><use href="/liza/symbol-defs.svg#icon-Vector-7"></use></svg></li>   
  <li><a href="#" class="lizap">+38 096 111 11 11</a></li>
             </ul>
@@ -39,17 +38,22 @@
     <div class="dodo">
         <div class="junior">
             <h1 class="vetal"> ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-            <button class="button">Замовити послугу</button>
+            <button class="button" data-modal-open >Замовити послугу</button>
         </div>
     </div>
 </section>
+<div class="backdrop is-hidden" data-modal >
+<div class="modal">
+<button data-modal-close><svg class="hrest" width="11px" height="11px"><use href="/liza/symbol-defs.svg#icon-Vector-12"></use></svg></button>
+</div>
+</div>
 <section>
     <div class="container">
         <div class="vtfk">
-          <div class="antena1"><svg class="antena" width="65.32px" height="70px"><use href="/liza/popupe.svg#icon-antena"></use></svg></div>
-           <div class="clock1"><svg class="clock" width="66.96px" height="70px"><use href="/liza/popupe.svg#icon-clock"></use></svg></div>
-           <div class="computer1"><svg class="computer" width="70px" height="53.69px"><use href="/liza/popupe.svg#icon-computer"></use></svg></div>
-           <div class="cocmos1"><svg class="cocmos"width="70px" height="70px"><use href="/liza/popupe.svg#icon-cocmos"></use></svg></div>
+          <div class="antena1"><svg class="antena" width="65.32px" height="70px"><use href="/liza/symbol-defs.svg#icon-antena"></use></svg></div>
+           <div class="clock1"><svg class="clock" width="66.96px" height="70px"><use href="/liza/symbol-defs.svg#icon-clock"></use></svg></div>
+           <div class="computer1"><svg class="computer" width="70px" height="53.69px"><use href="/liza/symbol-defs.svg#icon-computer"></use></svg></div>
+           <div class="cocmos1"><svg class="cocmos"width="70px" height="70px"><use href="/liza/symbol-defs.svg#icon-cocmos"></use></svg></div>
           </div>
         <div class="popopo">
             <ul class="listt ">
@@ -221,5 +225,6 @@
 </div>
     </div>
 </footer>
+<script src="./js/modal.js"></script>
 </body>
 </html>
