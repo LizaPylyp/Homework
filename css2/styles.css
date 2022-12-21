@@ -747,13 +747,28 @@ border-radius: 0px;
     position: relative;
 
 }
+.ngshka{
+    position: absolute;
+width: 370px;
+height: 294px;
+left: 0;
+top: 0;
+transition-duration: 250ms;
+    transition-property: inherit;
+    animation-duration: 250ms;
+    animation-fill-mode: none;
+animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+animation-play-state: paused;
+}
+.ngshka:hover{
+animation-name: changeBgColor ;
+}
 .text-animation{
     width: 322px;
 height: 168px;
 left: 239px;
 top: 323px;
-
-font-family: 'Roboto';
+font-family: sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -763,13 +778,17 @@ line-height: 28px;
 letter-spacing: 0.03em;
 
 color: #FFFFFF;
-}
-.ngshka{
-    position: absolute;
-width: 370px;
-height: 294px;
-left: 215px;
-top: 260px;
-
-background: rgba(33, 150, 243, 0.9);
+} 
+@keyframes changeBgColor{
+     100%{
+        background: rgba(33, 150, 243, 0.9); 
+        animation-play-state: running;
+        
+        
+    }
+    0%{
+        background: rgba(33, 150, 243, 0.9); 
+        animation-play-state: running;
+        
+    }
 }
