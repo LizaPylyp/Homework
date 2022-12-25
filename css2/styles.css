@@ -47,6 +47,23 @@ color: #2196F3;
 margin-right: 50px;
 margin-left: 50px;
 text-decoration: none;
+position: relative;
+margin-bottom: 28px;
+}
+.po::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 4px;
+    left: 0;
+    top: 28px;
+    background: #2196F3;
+    border-radius: 2px; 
+    display: block;
+    transition: width 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.po:hover::after{
+    width: 100%;
 }
 .gjk{
     font-family: sans-serif;
@@ -171,6 +188,7 @@ line-height: 36px;
 letter-spacing: 0.06em;
 text-align: left;
 color: #212121;
+text-decoration-line: none;
 
 }
 .beb{
@@ -181,7 +199,7 @@ line-height: 30px;
 letter-spacing: 0.03em;
 text-align: left;
 color: #757575;
-
+text-decoration-line: none;
 }
 .img8{
     height: 294px;
@@ -547,6 +565,7 @@ align-items: center;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
+    text-decoration-line: none;
 }
 .try{
     margin-left: 30px;
@@ -554,6 +573,7 @@ align-items: center;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
+    text-decoration-line: none;
 }
 .find{
     margin-left: 30px;
@@ -561,6 +581,7 @@ align-items: center;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
+    text-decoration-line: none;
 }
 .mind{
     background: #FFFFFF;
@@ -569,33 +590,39 @@ align-items: center;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
+    text-decoration-line: none;
 }
 .eyes{
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
+    text-decoration-line: none;
 }
 .was{
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
+    text-decoration-line: none;
 }
 .matter{
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
+    text-decoration-line:none ;
 }
 .weekend{
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
+    text-decoration-line: none;
 }
 .juicy{
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
     border: 1px solid #EEEEEE;
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    text-decoration-line: none;
+
 }
 .sunshine{
 margin-left: 24px;
@@ -624,6 +651,7 @@ margin-left: 24px;
 }
 .aria{
     margin-left: 24px;
+    text-decoration: none;
 }
 .telef{
     margin-right: 10px;
@@ -745,26 +773,55 @@ border-radius: 0px;
 }
 .cccss{
     position: relative;
+    overflow: hidden;
 
 }
 .ngshka{
     position: absolute;
-width: 370px;
-height: 294px;
+width: 100%;
+height: 100%;
 left: 0;
 top: 0;
-transition-duration: 250ms;
-    transition-property: inherit;
-    animation-duration: 250ms;
-    animation-fill-mode: none;
-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-animation-play-state: paused;
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+background:  #2196F3E5;
+padding-left: 24px;
+padding-right: 24px;
+padding-top: 63px;
+padding-bottom: 63px;
+transform: translateY(+100%) ;
+margin-top: 5px;
+display: block;
+
 }
-.ngshka:hover{
-animation-name: changeBgColor ;
+.juicy:hover .ngshka{
+transform: translateY(0%);
+}
+.rabiosa:hover .ngshka{
+transform: translateY(0%);    
+}
+.weekend:hover .ngshka{
+transform: translateY(0%); 
+}
+.was:hover .ngshka{
+transform: translateY(0%);
+}
+.try:hover .ngshka{
+transform: translateY(0%);   
+}
+.matter:hover .ngshka{
+ transform: translateY(0%);   
+}
+.mind:hover .ngshka{
+transform: translateY(0%);   
+}
+.find:hover .ngshka{
+ transform: translateY(0%);
+}
+.eyes:hover .ngshka{
+    transform: translateY(0%);   
 }
 .text-animation{
-    width: 322px;
+width: 322px;
 height: 168px;
 left: 239px;
 top: 323px;
@@ -779,16 +836,30 @@ letter-spacing: 0.03em;
 
 color: #FFFFFF;
 } 
-@keyframes changeBgColor{
-     100%{
-        background: rgba(33, 150, 243, 0.9); 
-        animation-play-state: running;
-        
-        
-    }
-    0%{
-        background: rgba(33, 150, 243, 0.9); 
-        animation-play-state: running;
-        
-    }
+.juicy:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+.rabiosa:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);   
+}
+.weekend:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);   
+} 
+.was:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);   
+}  
+.try:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16); 
+}    
+.matter:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);   
+}
+.mind:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.find:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16); 
+}
+.eyes:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}  
