@@ -1,0 +1,180 @@
+.momo__ky{
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+    
+    }
+    .mimo__vn{
+    height: 294px;
+    width: 370px;
+    left: 0;
+    top: 0;
+    border-radius: 0px;
+    margin-right: 30px;
+    position: relative;
+    text-decoration-line: none;
+    overflow: hidden;
+    }
+    .kontrebyt{
+        position: absolute;
+        width: 370px;
+        height: 70px;
+        left:0;
+        top: 224px;
+        background: rgba(47, 48, 58, 0.8);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transform: translateY(+100%);
+        display: block;
+        padding-top: 27px;
+        padding-bottom: 27px;
+        padding-right: 87px;
+        padding-left: 87px;
+    }
+    .mimo__vn:hover .kontrebyt{
+        transform: translateY(0);
+    }
+    .mimo__vn:focus{
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+    .kontrebyt1{
+        position: absolute;
+        width: 370px;
+        height: 70px;
+        left:0;
+        top: 224px;
+        background: rgba(47, 48, 58, 0.8);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transform: translateY(+100%);
+        display: block;
+        padding-left: 103px;   
+        padding-bottom: 27px;
+        padding-right: 103px;
+        padding-top: 27px;
+    }
+    .kontrebyt__lilop{
+    width: 196px;
+    height: 16px;
+    left: 728px;
+    top: 1459px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    
+    }
+    
+    .mimo__od{
+    height: 294px;
+    width: 370px;
+    left: 0;
+    top: 0;
+    border-radius: 0px;
+    margin-right: 30px;
+    position: relative;
+    text-decoration-line: none;
+    overflow: hidden;
+    }
+    .mimo__od:hover .kontrebyt1{
+        transform: translateY(0);
+    }
+    .mimo__od:focus{
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+    .kontrebyt1__lillop{
+        width: 164px;
+    height: 16px;
+    left: 728px;
+    top: 1459px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    }
+    .mimo__dn:hover .kontrebyt2{
+        transform: translateY(0);
+    }
+    
+    .mimo__dn{
+    height: 294px;
+    width: 370px;
+    left: 0;
+    top: 0;
+    border-radius: 0px;
+    position: relative;
+    text-decoration-line: none;
+    overflow: hidden;
+    
+    }
+    .mimo__dn:focus{
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+    .kontrebyt2{
+        position: absolute;
+        width: 370px;
+        height: 70px;
+        left:0;
+        top: 224px;
+        background: rgba(47, 48, 58, 0.8);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transform: translateY(+100%);
+        display: block;  
+        padding-left: 85px;
+        padding-top: 27px; 
+        padding-bottom: 27px;
+        padding-right: 85px;  
+    }
+    .kontrebyt2__lilllop{
+        width: 200px;
+    height: 16px;
+    left: 1110px;
+    top: 1459px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    }
+    .container{
+        margin: 0 auto;
+        width: 1600px;
+        box-sizing: content-box;
+        padding-left: 215px;
+        padding-right: 215px;
+        }
+        .momo{
+            align-items: center;
+            margin-top: 118px;
+            margin-bottom: 50px;
+                
+            
+            }
+            .mimo{
+            align-items: center;
+            display: flex;
+               
+            
+            }
+            .dude{
+            padding-left: 215px;
+            padding-right: 215px ;
+            background: color #f5f5f5;;
+            }        
