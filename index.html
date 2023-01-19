@@ -5,22 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./css/styles.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https: //fonts.googleapis.com/css2?family= Roboto: семья = Робото: вес @ 400; 500; 700; 900 & display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./images/symbol-defs.svg">
+<link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
 <header class="header">
-    <div class="containerr">
-        <div class="sonya">
+    
+        
             <nav class="yxtu">
-            <a class="duen" href="index.html"><span>Web</span>Studio</a> 
+            <a class="header__duen" href="index.html"><span class="span">Web</span>Studio</a> 
             <ul class="rrr">
-                    <li class="piko"> <a href="index.html" class="liz">Студія</a>
-                    <li> <a href="goit-markup-kw-02.html" class="lizaq">Портфоліо</a>
-                    <li><a href="#" class="liza">Контакти</a>
+                    <li class="piko"> <a href="index.html" class="rrr__liz">Студія</a>
+                    <li> <a href="goit-markup-kw-02.html" class="rrr__lizaq">Портфоліо</a>
+                    <li><a href="#" class="rrr__liza">Контакти</a>
             </ul>
             <ul class="rrrt">
                 <li><svg class="lust" width="16" hight="12"><use href="/images/symbol-defs.svg#icon-envelope-hover"></use></svg></li>
@@ -28,228 +29,217 @@
  <li><svg class="phone" width="10" height="16"><use href="./images/symbol-defs.svg#icon-Vector-7"></use></svg></li>   
  <li><a href="#" class="lizap">+38 096 111 11 11</a></li>
             </ul>
-            </nav>
-        </div>
-    </div>
+          </nav>  
+        
+    
 </header>   
 <main>
-<section>
-    <div class="dodo">
-
+<section class="dodo">
         <div class="junior">
-            <h1 class="vetal"> ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-            <button class="button" data-modal-open >Замовити послугу</button>
+            <h1 class="dodo__vetal"> ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+            <button class="button dodo__button" data-modal-open >Замовити послугу</button>
         </div>
-    </div>
 </section>
 <div class="backdrop is-hidden" data-modal >
 <div class="modal">
 <button class="zakruvachka" data-modal-close><svg class="hrest" width="11" height="11"><use href="./images/symbol-defs.svg#icon-Vector-12"></use></svg></button>
 <form class="forma">
-    <p class="tutor">
+    <p class="forma__tutor">
         Залиште свої дані, ми вам передзвонимо
     </p>
     <label  class="ukrt">
-       <span4 class="fr"> Ім'я</span4>
+       <span4 class="ukrt__fr"> Ім'я</span4>
     </label>
-        <input class="hp12" type="text" name="Ім'я">
-        <a class="person" href="#"><svg class="person" width="12" height="12"><use href="./images/symbol-defs.svg#icon--c"></use></svg></a>
+        <input class="forma__hp12" type="text" name="Ім'я">
+        <a class="forma__person" href="#"><svg class="forma__person" width="12" height="12"><use href="./images/symbol-defs.svg#icon--c"></use></svg></a>
     <label for="jaffa" class="ukrt">
-    <span3 class="pol"> Телефон</span3>
+    <span3 class="ukrt__pol"> Телефон</span3>
     </label>
-        <input  class="len" type="tel" name="Телефон">
-        <a class="telefon" href="#"><svg class="telefon" widht="13" height="13"><use href="./images/symbol-defs.svg#icon--b"></use></svg></a>
+        <input  class="forma__len" type="tel" name="Телефон">
+        <a class="forma__telefon" href="#"><svg class="forma__telefon" widht="13" height="13"><use href="./images/symbol-defs.svg#icon--b"></use></svg></a>
     <label for="mersy" class="ukrt">
-     <span3 class="ita"> Пошта</span3>
+     <span3 class="ukrt__ita"> Пошта</span3>
     </label>
-      <input class="macb" type="email" name="Пошта">
-      <a class="poshta" href="#"><svg class="poshta" widht="15" height="12"><use href="./images/symbol-defs.svg#icon--a"></use></svg></a>
+      <input class="forma__macb" type="email" name="Пошта">
+      <a class="forma__poshta" href="#"><svg class="forma__poshta" widht="15" height="12"><use href="./images/symbol-defs.svg#icon--a"></use></svg></a>
     <label for="pineee" class="ukrte">
-    <span3 class="chi"> Коментар</span3>
+    <span3 class="pineee__chi"> Коментар</span3>
     </label>
-      <textarea id="comb" class="blb" name="Коментар" rows="5" placeholder="Введіть текст" ></textarea>
+      <textarea id="comb" class="forma__blb" name="Коментар" rows="5" placeholder="Введіть текст" ></textarea>
     
     <label class="ukrtel">
         <input  type="checkbox" name="hobby"  value1="Погоджуюся з розсилкою та приймаю" />
-        Погоджуюся з розсилкою та приймаю<a class="ukrtele" href="#">Умови договору</a>
+        Погоджуюся з розсилкою та приймаю<a class="ukrtel__ukrtele" href="#">Умови договору</a>
       </label>
-    <button class="ukrtelekom" type="submit"><span2 class="ckj">Відправити</span2></button>
+    <button class="ukrtelekom" type="submit"><span2 class="ukrtelekom__ckj">Відправити</span2></button>
   </form>
 </div>
 </div>
-<section>
-    <div class="container">
+<section class="container">
         <div class="vtfk">
-          <div class="antena1"><svg class="antena" width="65" height="70"><use href="./images/symbol-defs.svg#icon-antena"></use></svg></div>
-           <div class="clock1"><svg class="clock" width="67" height="70"><use href="./images/symbol-defs.svg#icon-clock"></use></svg></div>
-           <div class="computer1"><svg class="computer" width="70" height="54"><use href="./images/symbol-defs.svg#icon-computer"></use></svg></div>
-           <div class="cocmos1"><svg class="cocmos"width="70" height="70"><use href="./images/symbol-defs.svg#icon-cocmos"></use></svg></div>
+          <div class="antena1"><svg   width="65" height="70"><use href="./images/symbol-defs.svg#icon-antena"></use></svg></div>
+           <div class="clock1"><svg   width="67" height="70"><use href="./images/symbol-defs.svg#icon-clock"></use></svg></div>
+           <div class="computer1"><svg  width="70" height="54"><use href="./images/symbol-defs.svg#icon-computer"></use></svg></div>
+           <div class="cocmos1"><svg  width="70" height="70"><use href="./images/symbol-defs.svg#icon-cocmos"></use></svg></div>
           </div>
         <div class="popopo">
             <ul class="listt ">
                 <li class="pip">
-                    <h3 class="vetall">УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p class="goit">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    <h3 class="pip__vetall">УВАГА ДО ДЕТАЛЕЙ</h3>
+                    <p class="pip__goit">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
             <li class="pup">
-               <h3 class="ua">Пунктуальність</h3> 
-               <p class="uk">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+               <h3 class="pup__ua">Пунктуальність</h3> 
+               <p class="pup__uk">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
             </li>
             <li class="men">
-                <h3 class="better">Планування</h3>
-                <p class="im">Так само консультація з широким активом значною мірою зумовлює.</p>
+                <h3 class="men__better">Планування</h3>
+                <p class="men__im">Так само консультація з широким активом значною мірою зумовлює.</p>
         </li>
         <li class="pyp">
-            <h3 class="st">Сучасні технології</h3>
-            <p class="bt">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+            <h3 class="pyp__st">Сучасні технології</h3>
+            <p class="pyp__bt">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
         </li>
         </ul>
         </div>
-    </div> 
+
 </section>
-<section>
-    <div class="container">
+<section class="container">
         <div class="dude">
             <div class="momo">
-                <h4 class="ky">Чим ми займаємося</h4>
+                <h4 class="momo__ky">Чим ми займаємося</h4>
             </div>
             <div class="mimo">
-                <a class="vn" href="#"><img src="./images/img.jpg" alt="">
+                <a class="mimo__vn" href="#"><img src="./images/img.jpg" alt="">
                     <div class="kontrebyt">
-                       <p class="lilop">Десктопні додатки</p> 
+                       <p class="kontrebyt__lilop">Десктопні додатки</p> 
                     </div>
                 </a>
-                <a class="od" href="#"><img src="./images/img (1).jpg" alt="">
+                <a class="mimo__od" href="#"><img src="./images/img (1).jpg" alt="">
                     <div class="kontrebyt1">
-                        <p class="lillop">Мобільні додатки</p> 
+                        <p class="kontrebyt1__lillop">Мобільні додатки</p> 
                      </div>  
                 </a>
-                <a class="dn" href="#"><img src="./images/img (2).jpg" alt="">
+                <a class="mimo__dn" href="#"><img src="./images/img (2).jpg" alt="">
                     <div class="kontrebyt2">
-                        <p class="lilllop">Дизайнерські рішення</p> 
+                        <p class="kontrebyt2__lilllop">Дизайнерські рішення</p> 
                      </div>
                 </a>
             </div> 
         </div>
-        <div class="mimo"> 
-    </div>
 </section>
-<section>
-    <div class="container">
+<section class="container">
         <div class="peppa">
-                <div class="aaab"><h5 class="ma">Наша команда</h5></div>
+                <div class="aaab"><h5 class="aaab__ma">Наша команда</h5></div>
             <div class="lana">
                 <ul class="listop">
                         <li class="motrya">
-                            <a class="yx" href=""></a><img src="./images/img (3).jpg" alt="">
-                            <h6 class="an">Ігор Дем'яненко</h6>
-                            <p class="vk">Product Designer</p>
+                            <a class="motrya__yx" href=""><img class="motrya__yx__tao" src="./images/img (22).jpg" alt=""></a>
+                            <h6 class="motrya__an">Ігор Дем'яненко</h6>
+                            <p class="motrya__vk">Product Designer</p>
                             <div class="adress">
                                 <div class="insta2">
-                                   <a class="link56" href=""><svg class="insta" width="20" height="20"><use href="./images/symbol-defs.svg#icon-instagram-2"></use></svg></a> 
+                                   <a class="insta2__link56" href=""><svg class="insta" width="20" height="20"><use href="./images/symbol-defs.svg#icon-instagram-2"></use></svg></a> 
                                 </div>
                                 <div class="twitter2">
-                                   <a class="link57" href=""><svg class="twitter" width="20" height="16"><use href="./images/symbol-defs.svg#icon-Vector-8"></use></svg></a>
+                                   <a class="twitter2__link57" href=""><svg class="twitter" width="20" height="16"><use href="./images/symbol-defs.svg#icon-Vector-8"></use></svg></a>
                                 </div>
                                 <div class="facebook2">
-                                   <a class="link58" href=""><svg class="facebook" widht="10" height="20"><use href="./images/symbol-defs.svg#icon-Vector-10"></use></svg></a>
+                                   <a class="facebook2__link58" href=""><svg class="facebook" widht="10" height="20"><use href="./images/symbol-defs.svg#icon-Vector-10"></use></svg></a>
                                 </div>
                                 <div class="in2">
-                                    <a class="link59" href=""><svg class="in" widht="20" height="20"><use href="./images/symbol-defs.svg#icon-linkedin-1"></use></svg></a>
+                                    <a class="in2__link59" href=""><svg class="in" widht="20" height="20"><use href="./images/symbol-defs.svg#icon-linkedin-1"></use></svg></a>
                                 </div>
                             </div>
                         </li>
                     <li class="suslan">
-                        <a class="jk"  href=""></a><img src="./images/img (4).jpg" alt="">
-                            <h6 class="hg">Ольга Рєпіна</h6>
-                            <p class="df">Frontend Developer</p>
+                        <a class="suslan__jk"  href=""><img class="suslan__jk__tao" src="./images/img (4).jpg" alt=""></a>
+                            <h6 class="suslan__hg">Ольга Рєпіна</h6>
+                            <p class="suslan__df">Frontend Developer</p>
                             <div class="adress">
                                 <div class="insta3">
-                                   <a class="link56" href=""><svg class="insta" width="20" height="20"><use href="./images/symbol-defs.svg#icon-instagram-2"></use></svg></a> 
+                                   <a class="insta3__link56" href=""><svg class="insta" width="20" height="20"><use href="./images/symbol-defs.svg#icon-instagram-2"></use></svg></a> 
                                 </div>
                                 <div class="twitter2">
-                                   <a class="link57" href=""><svg class="twitter" width="20" height="16"><use href="./images/symbol-defs.svg#icon-Vector-8"></use></svg></a>
+                                   <a class="twitter2__2link57" href=""><svg class="twitter" width="20" height="16"><use href="./images/symbol-defs.svg#icon-Vector-8"></use></svg></a>
                                 </div>
                                 <div class="facebook2">
-                                   <a class="link58" href=""><svg class="facebook" widht="10" height="20"><use href="./images/symbol-defs.svg#icon-Vector-10"></use></svg></a>
+                                   <a class="facebook2__link58" href=""><svg class="facebook" widht="10" height="20"><use href="./images/symbol-defs.svg#icon-Vector-10"></use></svg></a>
                                 </div>
                                 <div class="in2">
-                                    <a class="link59" href=""><svg class="in" widht="20" height="20"><use href="./images/symbol-defs.svg#icon-linkedin-1"></use></svg></a>
+                                    <a class="in2__link59" href=""><svg class="in" widht="20" height="20"><use href="./images/symbol-defs.svg#icon-linkedin-1"></use></svg></a>
                                 </div>
                             </div>  
                    </li>        
-                    <li class="dog"><a class="we" href=""></a><img src="./images/img (5).jpg" alt="">
-                            <h6 class="you">Микола Тарасов</h6>
-                                        <p class="lo">Marketing</p> 
+                    <li class="dog"><a class="dog__we" href=""><img class="dog__we__tao" src="./images/img (5).jpg" alt=""></a>
+                            <h6 class="dog__you">Микола Тарасов</h6>
+                                        <p class="dog__lo">Marketing</p> 
                                         <div class="adress">
                                             <div class="insta3">
-                                               <a class="link56" href=""><svg class="insta" width="20" height="20"><use href="./images/symbol-defs.svg#icon-instagram-2"></use></svg></a> 
+                                               <a class="insta3__link56" href=""><svg class="insta" width="20" height="20"><use href="./images/symbol-defs.svg#icon-instagram-2"></use></svg></a> 
                                             </div>
                                             <div class="twitter2">
-                                               <a class="link57" href=""><svg class="twitter" width="20" height="16"><use href="./images/symbol-defs.svg#icon-Vector-8"></use></svg></a>
+                                               <a class="twitter2__link57" href=""><svg class="twitter" width="20" height="16"><use href="./images/symbol-defs.svg#icon-Vector-8"></use></svg></a>
                                             </div>
                                             <div class="facebook2">
-                                               <a class="link58" href=""><svg class="facebook" widht="10" height="20"><use href="./images/symbol-defs.svg#icon-Vector-10"></use></svg></a>
+                                               <a class="facebook2__link58" href=""><svg class="facebook" widht="10" height="20"><use href="./images/symbol-defs.svg#icon-Vector-10"></use></svg></a>
                                             </div>
                                             <div class="in2">
-                                                <a class="link59" href=""><svg class="in" widht="20" height="20"><use href="./images/symbol-defs.svg#icon-linkedin-1"></use></svg></a>
+                                                <a class="in2__link59" href=""><svg class="in" widht="20" height="20"><use href="./images/symbol-defs.svg#icon-linkedin-1"></use></svg></a>
                                             </div>
                                         </div>       
                     </li>   
                         <li class="sus">
-                            <a class="as" href=""></a><img src="./images/img (6).jpg" alt="">
-                            <h6 class="cl">Михайло Єрмаков</h6>
-                            <p class="m">UI Designer</p>
+                            <a class="sus__as" href=""><img class="sus__as__tao" src="./images/img (6).jpg" alt=""></a>
+                            <h6 class="sus__cl">Михайло Єрмаков</h6>
+                            <p class="sus__m">UI Designer</p>
                             <div class="adress">
                                 <div class="insta3">
-                                   <a class="link56" href=""><svg class="insta" width="20" height="20"><use href="./images/symbol-defs.svg#icon-instagram-2"></use></svg></a> 
+                                   <a class="insta3__link56" href=""><svg class="insta" width="20" height="20"><use href="./images/symbol-defs.svg#icon-instagram-2"></use></svg></a> 
                                 </div>
                                 <div class="twitter2">
-                                   <a class="link57" href=""><svg class="twitter" width="20" height="16"><use href="./images/symbol-defs.svg#icon-Vector-8"></use></svg></a>
+                                   <a class="twitter2__link57" href=""><svg class="twitter" width="20" height="16"><use href="./images/symbol-defs.svg#icon-Vector-8"></use></svg></a>
                                 </div>
                                 <div class="facebook2">
-                                   <a class="link58" href=""><svg class="facebook" widht="10" height="20"><use href="./images/symbol-defs.svg#icon-Vector-10"></use></svg></a>
+                                   <a class="facebook2__link58" href=""><svg class="facebook" widht="10" height="20"><use href="./images/symbol-defs.svg#icon-Vector-10"></use></svg></a>
                                 </div>
                                 <div class="in2">
-                                    <a class="link59" href=""><svg class="in" widht="20" height="20"><use href="./images/symbol-defs.svg#icon-linkedin-1"></use></svg></a>
+                                    <a class="in2__link59" href=""><svg class="in" widht="20" height="20"><use href="./images/symbol-defs.svg#icon-linkedin-1"></use></svg></a>
                                 </div>
                             </div>  
                         </li>
                </ul>      
             </div>
         </div>
-    </div> 
 </section>
-<section>
-    <div class="korobka">
+<section class="korobka">
         <div class="pugolovok">
-            <h2 class="smile2">Постійні клієнти</h2>
+            <h2 class="pugolovok__smile2">Постійні клієнти</h2>
         </div>
         <div class="zagolovok">
-       <div class="union2"><svg class="union" width="41" height="47"><use href="./images/symbol-defs.svg#icon-Union"></use></svg></div>
-       <div class="group71"><svg class="group7" widht="40" height="52"><use href="./images/symbol-defs.svg#icon-group-1"></use></svg></div>
-       <div class="group81"><svg class="group8" widht="43" height="41"><use href="./images/symbol-defs.svg#icon-group-2"></use></svg></div>
-       <div class="group44"><svg class="group4" width="84" height="41"><use href="./images/symbol-defs.svg#icon-group-4"></use></svg></div>
-       <div class="group55"><svg class="group5" width="62" height="45"><use href="./images/symbol-defs.svg#icon-group-5"></use></svg></div>
-       <div class="group66"><svg class="group6" width="94" height="44"><use href="./images/symbol-defs.svg#icon-group-6"></use></svg></div>   
+       <div class="union2"><svg class="union2__union" width="41" height="47"><use href="./images/symbol-defs.svg#icon-Union"></use></svg></div>
+       <div class="group71"><svg class="group71__group7" widht="40" height="52"><use href="./images/symbol-defs.svg#icon-group-1"></use></svg></div>
+       <div class="group81"><svg class="group81__group8" widht="43" height="41"><use href="./images/symbol-defs.svg#icon-group-2"></use></svg></div>
+       <div class="group44"><svg class="group44__group4" width="84" height="41"><use href="./images/symbol-defs.svg#icon-group-4"></use></svg></div>
+       <div class="group55"><svg class="goup55__group5" width="62" height="45"><use href="./images/symbol-defs.svg#icon-group-5"></use></svg></div>
+       <div class="group66"><svg class="group66__group6" width="94" height="44"><use href="./images/symbol-defs.svg#icon-group-6"></use></svg></div>   
         </div>
-    </div>
 </section>
 </main>
 <footer class="page-footer">
     <div class="conta">
         <div class="kinez">
             <nav class="mode">
-                <div class="glo"><a class="dym" href="index.html"><span>Web</span>Studio</a></div>                            
+                <div class="glo"><a class="glo__dym" href="index.html"><span class="span">Web</span>Studio</a></div>                            
             <ul class="lish">
-            <li><a class="kl" href="#">м. Київ, пр-т Лесі Українки, 26</a></li>
-            <li><a class="op" href="#">info@devstudio.com</a></li>
-            <li><a class="ann" href="#">+38 096 111 11 11</a></li>
+            <li><a class="lish__kl" href="#">м. Київ, пр-т Лесі Українки, 26</a></li>
+            <li><a class="lish__op" href="#">info@devstudio.com</a></li>
+            <li><a class="lish__ann" href="#">+38 096 111 11 11</a></li>
             </ul>
             </nav> 
         </div>
 <div class="pochatok">
-    <div class="nazva"><h4 class="qqq1">ПРИЄДНУЙТЕСЬ</h4></div>
+    <div class="nazva"><h4 class="nazva__qqq1">ПРИЄДНУЙТЕСЬ</h4></div>
     <div class="adress">
         <div class="insta3">
            <a class="link56" href=""><svg class="insta" width="20" height="20"><use href="./images/symbol-defs.svg#icon-instagram-2"></use></svg></a> 
@@ -267,14 +257,14 @@
 </div>
 <div class="apocalips1">
     <form class="apocalips" name="signup_form" autocomplete="on" novalidate>
-    <label for="label" class="subsribe-na"><p class="rosulka">Підпишіться на розсилку</p></label>
-      <input id="label" class="net" type="email" name="subsribse na"
+    <label for="label" class="subsribena"><p class="subsribena__rosulka">Підпишіться на розсилку</p></label>
+      <input id="label" class="subsribena__net" type="email" name="subsribse na"
       placeholder="E-mail" />
     
   
 
   
-   <button class="subsribse" type="submit"><span1 class="subsri">Підписатись</span1><svg  class="telegraf" width="24" height="24"><use href="./images/symbol-defs.svg#icon-icon-send"></use></svg></button>
+   <button class="subsribse" type="submit"><span1 class="subsribse__subsri">Підписатись</span1><svg  class="subsribse__telegraf" width="24" height="24"><use href="./images/symbol-defs.svg#icon-icon-send"></use></svg></button>
   </form>
 </div>
     </div>
