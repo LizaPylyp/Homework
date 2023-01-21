@@ -1,4 +1,8 @@
-/*# sourceMappingURL=main.css.map */__vetal {
+body {
+  max-width: 1600px;
+}
+
+.dodo__vetal {
   color: blanchedalmond;
   text-align: center;
   font-family: sans-serif;
@@ -875,8 +879,6 @@
   width: 1600px;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
-  padding-left: 215px;
-  padding-right: 215px;
 }
 
 .popopo {
