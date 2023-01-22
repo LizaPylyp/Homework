@@ -918,7 +918,6 @@ body {
 }
 
 .container3 {
-  margin: 0 auto;
   width: 1600px;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
@@ -983,6 +982,16 @@ body {
   top: 950px;
   border-radius: nullpx;
 }
+@media (max-width: 480px) {
+  .men__im {
+    margin-left: 0;
+    height: 50px;
+    width: 450px;
+    left: 15px;
+    top: 696px;
+    border-radius: nullpx;
+  }
+}
 
 .pyp__st {
   font-family: sans-serif;
@@ -998,6 +1007,16 @@ body {
   top: 924px;
   border-radius: nullpx;
 }
+@media (max-width: 480px) {
+  .pyp__st {
+    margin-left: 0;
+    width: 270px;
+    height: 16px;
+    left: 105px;
+    top: 670px;
+    text-align: center;
+  }
+}
 
 .pyp__bt {
   font-family: sans-serif;
@@ -1012,6 +1031,16 @@ body {
   left: 1115px;
   top: 950px;
   border-radius: nullpx;
+}
+@media (max-width: 480px) {
+  .pyp__bt {
+    margin-left: 0;
+    height: 50px;
+    width: 450px;
+    left: 15px;
+    top: 696px;
+    border-radius: nullpx;
+  }
 }
 
 .pip__vetall {
@@ -1052,6 +1081,16 @@ body {
   left: 215px;
   top: 950px;
   border-radius: nullpx;
+}
+@media (max-width: 480px) {
+  .pip__goit {
+    margin-left: 0;
+    height: 50px;
+    width: 450px;
+    left: 15px;
+    top: 696px;
+    border-radius: nullpx;
+  }
 }
 
 .pup__ua {
