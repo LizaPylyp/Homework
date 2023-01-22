@@ -121,7 +121,7 @@ padding-right: 190px;
         }
         }
         .container3{
-            margin: 0 auto;
+          
             width: 1600px;
             box-sizing: content-box;
             margin-top: 94px;
@@ -176,7 +176,15 @@ padding-right: 190px;
                     top: 950px;
                     border-radius: nullpx;
                     
-                    
+                    @media (max-width: 480px){
+                        margin-left: 0;
+                        height: 50px;
+                        width: 450px;
+                        left: 15px;
+                        top: 696px;
+                        border-radius: nullpx;
+
+                    }
                     }
                     .pyp__st{
                     font-family: sans-serif;
@@ -192,7 +200,14 @@ padding-right: 190px;
                     top: 924px;
                     border-radius: nullpx;
                     
-                    
+                    @media (max-width: 480px){
+                        margin-left: 0;
+                        width: 270px;
+                        height: 16px;
+                        left: 105px;
+                        top: 670px;
+                        text-align: center;
+                    }
                     }
                     .pyp__bt{
                     font-family: sans-serif;
@@ -208,7 +223,15 @@ padding-right: 190px;
                     top: 950px;
                     border-radius: nullpx;
                     
-                    
+                    @media (max-width: 480px){
+                        margin-left: 0;
+                        height: 50px;
+                        width: 450px;
+                        left: 15px;
+                        top: 696px;
+                        border-radius: nullpx;
+
+                    }
                     }
                     .pip__vetall{
                         font-family: sans-serif;
@@ -248,7 +271,15 @@ padding-right: 190px;
                         top: 950px;
                         border-radius: nullpx;
                         
-                        
+                        @media (max-width: 480px){
+                            margin-left: 0;
+                            height: 50px;
+                            width: 450px;
+                            left: 15px;
+                            top: 696px;
+                            border-radius: nullpx;
+
+                        }
                         }
                         .pup__ua{
                         font-family: sans-serif;
