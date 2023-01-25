@@ -241,6 +241,11 @@ body {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
 }
+@media (max-width: 480px) {
+  .container2 {
+    display: none;
+  }
+}
 
 .momo {
   -webkit-box-align: center;
@@ -258,10 +263,20 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
+@media (max-width: 480px) {
+  .mimo {
+    display: none;
+  }
+}
 
 .dude {
   padding-left: 205px;
   padding-right: 225px;
+}
+@media (max-width: 480px) {
+  .dude {
+    display: none;
+  }
 }
 
 .pugolovok {
